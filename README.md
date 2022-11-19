@@ -13,6 +13,7 @@ class MySelf extends Human {
     ];
 
     public function __construct() {
+        parent::__construct();
         life_cycle();
     }
 
@@ -21,7 +22,7 @@ class MySelf extends Human {
             being_kind();
             learning();
             coding();
-        } while (self::ALIVE); 
+        } while ($this->ALIVE); 
     }
 }
 ```
