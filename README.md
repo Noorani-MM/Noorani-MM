@@ -1,5 +1,8 @@
  **Hi there** 👋🏻 
  
+ 
+ [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Noorani-mm&count_private=true&show_icons=true)](https://github.com/Noorani-mm)
+ 
 ### About me 📖
 <hr>
 
