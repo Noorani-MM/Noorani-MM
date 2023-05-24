@@ -17,15 +17,15 @@ class MySelf extends Human {
 
     public function __construct() {
         parent::__construct();
-        life_cycle();
+        $this->life_cycle();
     }
 
     protected function life_cycle() {
         do {
-            being_kind();
-            learning();
-            coding();
-        } while ($this->ALIVE); 
+            $this->being_kind();
+            $this->learning();
+            $this->coding();
+        } while ($this->alive()); 
     }
 }
 ```
