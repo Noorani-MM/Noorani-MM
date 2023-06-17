@@ -9,7 +9,10 @@ class MySelf extends Human {
     protected $name = 'Mohammad Mahdi Noorani';
     
     protected $skills = [
-        'php' => 'laravel', // API Developer
+        'php'        => 'Laravel', // API Developer
+        'javascript' => 'Nuxt',
+        'css'        => 'Tailwind css',
+        'c#'         => '.net framework',
     ];
 
     public function __construct() {
